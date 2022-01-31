@@ -1,0 +1,40 @@
+body {
+    margin: 40px;
+}
+
+.box {
+    width: 25px;
+    height: 25px;
+    background: rgb(112, 180, 58);
+    background: linear-gradient(90deg, #92F8B3 28%, #5ABF7E 62%, #1A884C 94%);
+    transition-property: all;
+    transition-duration: 4s;
+}
+
+input {
+    zoom: 2;
+}
+
+input:checked~.box {
+    width: 100%;
+}
+
+.a {
+    transition-timing-function: linear;
+}
+
+.b {
+    transition-timing-function: ease;
+}
+
+.c {
+    transition-timing-function: ease-in;
+}
+
+.d {
+    transition-timing-function: ease-out;
+}
+
+.e {
+    transition-timing-function: ease-in-out;
+}
